@@ -1,38 +1,56 @@
-.App {
+.reactApp {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("https://images.unsplash.com/photo-1612107563953-5e2923d7b299?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80");
+  font-family:'Lucida Sans', sans-serif
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  background-color: rgba(225, 149, 238, 0.5);
+  font-weight: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#loginform {
+  text-align: center;
+  margin-top: 200px;
+  padding-top: 80px;
+  background-color: rgba(52, 32, 55, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  letter-spacing: .25rem;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:focus {
+  outline:none;
 }
+
+#loginform h3 {
+  font-weight: 1000;
+  margin-bottom: 40px;
+  font-size: 50px;
+  margin-top: 200px; 
+}
+
+
+.btn {
+  background-color: #825e90;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.nav-link {
+  color:rgb(0, 0, 0)
+}
+
